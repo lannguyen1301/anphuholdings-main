@@ -13,7 +13,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.css" rel="stylesheet">
 
-  <title>Cho Thuê Văn Phòng Theo Quận</title>
+  <title>Cho thuê tòa nhà nguyên căn</title>
 
   <style>
     .noUi-handle {
@@ -84,7 +84,7 @@
       style="background-image: url('assets/images/layer.svg')">
       <div class="container flex h-[170px] flex-col items-center justify-center sm:h-[200px] md:h-[250px]"
         data-aos="fade-up">
-        <h1 id="pageTitle" class="common-hero-heading">Cho Thuê Văn Phòng Theo Quận</h1>
+        <h1 id="pageTitle" class="common-hero-heading">Cho thuê tòa nhà nguyên căn</h1>
 
         <!-- Breadcrumb -->
         <div id="breadCrumb" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
@@ -96,58 +96,39 @@
     </div>
   </section>
 
+  <!-- Rating start -->
+  <div class="container">
+    <section id="ratingStar" data-aos="fade-right"></section>
+  </div>
 
-  <!-- Content Started -->
-  <section class="container overflow-x-hidden">
+  <!-- Building rentals by district -->
+  <section id="officeRental" class="bg-slate-50"></section>
 
-
-    <!-- Rating start -->
-    <div id="ratingStar" data-aos="fade-right"></div>
-
-    <!-- Building rentals by district -->
-    <section id="officeRental"></section>
-
-    <!-- VĂN PHÒNG CHO THUÊ  -->
-    <section id="officeRentalWard1"></section>
-    <section id="officeRentalWard2"></section>
-    <section id="officeRentalWard3"></section>
-    <section id="officeRentalWard4"></section>
-    <section id="officeRentalWard5"></section>
-    <section id="officeRentalWard6"></section>
-    <section id="officeRentalWard7"></section>
-    <section id="officeRentalWard8"></section>
-    <section id="officeRentalWard9"></section>
-    <section id="officeRentalWard10"></section>
-    <section id="officeRentalWard11"></section>
-    <section id="officeRentalWard12"></section>
-    <section id="officeRentalWardBinhThanh"></section>
-    <section id="officeRentalWardGoVap"></section>
-    <section id="officeRentalWardPhuNhuan"></section>
-    <section id="officeRentalWardTanBinh"></section>
-    <section id="officeRentalWardThuDuc"></section>
-    <section id="officeRentalWardBinhChanh"></section>
-  </section>
-
-  <!-- Investor slider -->
-  <section id="investorSlider" class="bg-slate-50"></section>
-
-  <!-- maps -->
-  <!-- đang bị sai layout -->
-  <section class="container mx-auto px-4 xl:px-0 bg-white py-16">
-    <h2 class="text-3xl font-bold text-navy uppercase mt-12 mb-5" data-aos="fade-up">
-      Bản đồ các tòa nhà cho thuê văn phòng tại tp.HCM
-    </h2>
-    <div id="map"></div>
-  </section>
+  <!-- VĂN PHÒNG CHO THUÊ  -->
+  <section id="officeRentalWard1"></section>
+  <section id="officeRentalWard2"></section>
+  <section id="officeRentalWard3"></section>
+  <section id="officeRentalWard4"></section>
+  <section id="officeRentalWard5"></section>
+  <section id="officeRentalWard6"></section>
+  <section id="officeRentalWard7"></section>
+  <section id="officeRentalWard8"></section>
+  <section id="officeRentalWard9"></section>
+  <section id="officeRentalWard10"></section>
+  <section id="officeRentalWard11"></section>
+  <section id="officeRentalWard12"></section>
+  <section id="officeRentalWardBinhThanh"></section>
+  <section id="officeRentalWardGoVap"></section>
+  <section id="officeRentalWardPhuNhuan"></section>
+  <section id="officeRentalWardTanBinh"></section>
+  <section id="officeRentalWardThuDuc"></section>
+  <section id="officeRentalWardBinhChanh"></section>
 
   <!-- General information -->
   <section id="generalInformation" class="bg-slate-50"></section>
 
-  <!-- FAQ Section -->
-  <section id="faq"></section>
-
   <!-- Tìm thuê văn phòng theo phường mới -->
-  <section id="officeNewWard" class="bg-slate-50"></section>
+  <section id="officeNewWard"></section>
 
   <!-- Cẩm nang tìm văn phòng -->
   <section id="handbook"></section>
@@ -983,39 +964,6 @@
         maxCapacity.value = "1";
       })
     }
-    function initInvestor() {
-      const arrayEl = document.querySelectorAll('.investor-logo-swiper');
-
-      arrayEl.forEach(el => {
-        if (!el || el.classList.contains('swiper-initialized')) return;
-
-        new Swiper(el, {
-          slidesPerView: 4,
-          spaceBetween: 24,
-          loop: true,
-          speed: 800,
-          grabCursor: true,
-
-          navigation: {
-            nextEl: '.investor-logo-swiper-next',
-            prevEl: '.investor-logo-swiper-prev',
-          },
-
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-
-          breakpoints: {
-            0: { slidesPerView: 1, spaceBetween: 16 },
-            640: { slidesPerView: 2, spaceBetween: 20 },
-            1024: { slidesPerView: 3, spaceBetween: 24 },
-            1280: { slidesPerView: 4, spaceBetween: 24 },
-          },
-        });
-      });
-    }
     document.addEventListener("DOMContentLoaded", () => {
       includeHTML("#header", "./partials/common/header.html");
       includeHTML("#breadCrumb", "./partials/common/bread-crumb.html", initBreadcrumb);
@@ -1032,33 +980,29 @@
         includeHTML("#officeRentalWard3", "./partials/office-rental/office-rental-ward-3.html",),
         includeHTML("#officeRentalWard4", "./partials/office-rental/office-rental-ward-4.html",),
         includeHTML("#officeRentalWard5", "./partials/office-rental/office-rental-ward-5.html",),
+        // includeHTML("#officeRentalWard6", "./partials/office-rental/office-rental-ward-1.html",),
         includeHTML("#officeRentalWard7", "./partials/office-rental/office-rental-ward-7.html",),
         includeHTML("#officeRentalWard8", "./partials/office-rental/office-rental-ward-8.html",),
         includeHTML("#officeRentalWard9", "./partials/office-rental/office-rental-ward-9.html",),
         includeHTML("#officeRentalWard10", "./partials/office-rental/office-rental-ward-10.html",),
         includeHTML("#officeRentalWard11", "./partials/office-rental/office-rental-ward-11.html",),
-        includeHTML("#officeRentalWard12", "./partials/office-rental/office-rental-ward-12.html",),
+        includeHTML("#officeRentalWard12", "./partials/office-rental/office-rental-ward-1.html",),
         includeHTML("#officeRentalWardBinhThanh", "./partials/office-rental/office-rental-ward-binh-thanh.html",),
         includeHTML("#officeRentalWardPhuNhuan", "./partials/office-rental/office-rental-ward-phu-nhuan.html",),
         includeHTML("#officeRentalWardGoVap", "./partials/office-rental/office-rental-ward-go-vap.html",),
         includeHTML("#officeRentalWardTanBinh", "./partials/office-rental/office-rental-ward-tan-binh.html",),
         includeHTML("#officeRentalWardThuDuc", "./partials/office-rental/office-rental-ward-thu-duc.html",),
         includeHTML("#officeRentalWardBinhChanh", "./partials/office-rental/office-rental-ward-binh-chanh.html",),
-
-        includeHTML("#investorSlider", "./partials/home/investor-logo-slider.html"),
       ]
       // Wait for ALL of them to finish, then init
       Promise.all(loads).then(() => {
         initVPChoThue();
-        initInvestor()
       });
-      includeHTML("#map", "./partials/maps/map-1.html");
       includeHTML("#pagination", "./partials/common/pagination.html");
       includeHTML("#consultingTeam", "./partials/common/consulting-team.html");
       includeHTML("#generalInformation", "./partials/common/general-information.html");
       includeHTML("#handbook", "./partials/office-rental/handbook.html");
       includeHTML("#officeNewWard", "./partials/office-rental/office-new-ward.html");
-      includeHTML("#faq", "./partials/common/faq.html");
       includeHTML("#contact2", "./partials/common/contact-2.html");
       includeHTML("#footer", "./partials/common/footer.html");
     });
