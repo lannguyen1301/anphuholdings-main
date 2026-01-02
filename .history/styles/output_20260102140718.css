@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=UTMTimesBold:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 .description-h3{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -56,8 +55,7 @@
 
 .description-p{
   margin-bottom: 0.75rem;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: var(--new-800);
@@ -94,8 +92,7 @@
   padding-right: 0.625rem;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
@@ -191,8 +188,7 @@
       text-align: center;
     }
     span{
-      font-family: 'UTM Times', serif;
-
+      font-family: UTMTimesBold, sans-serif;
     }
     span{
       font-size: 0.875rem;
@@ -1497,8 +1493,7 @@ input[type="range"]::-ms-fill-lower{
   padding-right: 0.75rem;
   padding-top: 13px;
   padding-bottom: 13px;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -6719,8 +6714,7 @@ input[type="range"]::-ms-fill-lower{
 }
 
 .font-UTMTimesBold{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
 }
 
 .font-sans{
@@ -7781,8 +7775,7 @@ body{
   padding-right: 0.75rem;
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
@@ -7923,8 +7916,7 @@ body{
   padding-right: 0.875rem;
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
@@ -8045,8 +8037,7 @@ body{
 .heading-tagline{
   margin-bottom: 1.5rem;
   text-align: center;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-weight: 400;
   color: var(--nature-200);
 }
@@ -8677,8 +8668,7 @@ body{
 }
 
 .how-it-works-card > .content > p{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
@@ -9003,8 +8993,7 @@ body{
 }
 
 .testimonial-content > p{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-weight: 400;
   color: var(--nature-300);
 }
@@ -9038,8 +9027,7 @@ body{
 }
 
 .testimonial-features > div > span{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
@@ -9054,8 +9042,7 @@ body{
   padding-right: 0.5rem;
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
@@ -9176,8 +9163,7 @@ body{
 }
 
 .urs-header > div > h6{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -9193,8 +9179,7 @@ body{
 }
 
 .urs-header > div > span{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
@@ -9225,8 +9210,7 @@ body{
 
 .urs-body > p{
   margin-bottom: 0.75rem;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   line-height: 22px;
@@ -9298,8 +9282,7 @@ body{
 .blog-content > p{
   margin-bottom: 1rem;
   margin-top: 0.5rem;
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
@@ -9307,8 +9290,7 @@ body{
 }
 
 .blog-content > a{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
@@ -9487,8 +9469,7 @@ body{
       text-align: center;
     }
     p{
-      font-family: 'UTM Times', serif;
-
+      font-family: UTMTimesBold, sans-serif;
     }
     p{
       font-size: 1rem;
@@ -9573,8 +9554,7 @@ body{
              column-gap: 0.5rem;
       }
       div{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       div{
         font-size: 0.875rem;
@@ -9607,8 +9587,7 @@ body{
            column-gap: 0.5rem;
     }
     a{
-      font-family: 'UTM Times', serif;
-
+      font-family: UTMTimesBold, sans-serif;
     }
     a{
       font-size: 0.875rem;
@@ -9740,8 +9719,7 @@ body{
         display: block;
       }
       .pth-l > a{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       .pth-l > a{
         font-size: 1rem;
@@ -9754,8 +9732,7 @@ body{
         color: var(--nature-600);
       }
       .pth-l > p{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       .pth-l > p{
         font-size: 0.875rem;
@@ -9812,8 +9789,7 @@ body{
     }
     .h2-property-type-footer {
       p{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       p{
         font-size: 0.875rem;
@@ -9827,8 +9803,7 @@ body{
       }
       div {
         span{
-          font-family: 'UTM Times', serif;
-
+          font-family: UTMTimesBold, sans-serif;
         }
         span{
           font-size: 0.875rem;
@@ -9936,8 +9911,7 @@ body{
         text-align: center;
       }
       h4{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       h4{
         font-size: 1rem;
@@ -9999,8 +9973,7 @@ body{
     text-align: center;
   }
   p{
-    font-family: 'UTM Times', serif;
-
+    font-family: UTMTimesBold, sans-serif;
   }
   p{
     font-size: 0.875rem;
@@ -10275,8 +10248,7 @@ body{
           padding-bottom: 0.375rem;
         }
         p{
-          font-family: 'UTM Times', serif;
-
+          font-family: UTMTimesBold, sans-serif;
         }
         p{
           font-size: 0.875rem;
@@ -10509,8 +10481,7 @@ body{
     text-align: center;
   }
   p{
-    font-family: 'UTM Times', serif;
-
+    font-family: UTMTimesBold, sans-serif;
   }
   p{
     font-size: 0.875rem;
@@ -10558,8 +10529,7 @@ body{
     text-align: center;
   }
   a{
-    font-family: 'UTM Times', serif;
-
+    font-family: UTMTimesBold, sans-serif;
   }
   a{
     font-size: 0.875rem;
@@ -10755,8 +10725,7 @@ body{
     }
     .h3-property-definition {
       p{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       p{
         font-size: 0.75rem;
@@ -10786,8 +10755,7 @@ body{
       }
       div {
         span{
-          font-family: 'UTM Times', serif;
-
+          font-family: UTMTimesBold, sans-serif;
         }
         span{
           font-size: 0.875rem;
@@ -10875,8 +10843,7 @@ body{
         }
       }
       p{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       p{
         font-size: 0.875rem;
@@ -10912,8 +10879,7 @@ body{
           text-align: center;
         }
         a{
-          font-family: 'UTM Times', serif;
-
+          font-family: UTMTimesBold, sans-serif;
         }
         a{
           font-size: 0.875rem;
@@ -11067,8 +11033,7 @@ body{
       }
       div {
         span{
-          font-family: 'UTM Times', serif;
-
+          font-family: UTMTimesBold, sans-serif;
         }
         span{
           font-size: 0.75rem;
@@ -11123,8 +11088,7 @@ body{
       text-align: center;
     }
     a{
-      font-family: 'UTM Times', serif;
-
+      font-family: UTMTimesBold, sans-serif;
     }
     a{
       font-size: 1.125rem;
@@ -11248,8 +11212,7 @@ body{
       }
     }
     p{
-      font-family: 'UTM Times', serif;
-
+      font-family: UTMTimesBold, sans-serif;
     }
     p{
       font-size: 0.875rem;
@@ -11479,8 +11442,7 @@ body{
       color: var(--secondary-500);
     }
     p{
-      font-family: 'UTM Times', serif;
-
+      font-family: UTMTimesBold, sans-serif;
     }
     p{
       font-size: 0.75rem;
@@ -11601,8 +11563,7 @@ body{
         text-align: center;
       }
       a{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       a{
         font-size: 1.125rem;
@@ -11724,8 +11685,7 @@ body{
              column-gap: 0.375rem;
       }
       p{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       p{
         font-size: 0.875rem;
@@ -11821,8 +11781,7 @@ body{
     }
     .h5-blogs-footer {
       p{
-        font-family: 'UTM Times', serif;
-
+        font-family: UTMTimesBold, sans-serif;
       }
       p{
         font-size: 0.875rem;
@@ -11962,13 +11921,11 @@ body{
 }
 
 .placeholder\:font-UTMTimesBold::-moz-placeholder{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
 }
 
 .placeholder\:font-UTMTimesBold::placeholder{
-  font-family: 'UTM Times', serif;
-
+  font-family: UTMTimesBold, sans-serif;
 }
 
 .placeholder\:text-sm::-moz-placeholder{

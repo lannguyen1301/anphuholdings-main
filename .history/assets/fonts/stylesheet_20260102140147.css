@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'UTM Times';
+    src: url('UTMTimesBold/UTMTimesBold.woff2') format('woff2'),
+        url('UTMTimesBold/UTMTimesBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Times';
+    src: url('UTMTimesBold/UTMTimes.woff2') format('woff2'),
+        url('UTMTimesBold/UTMTimes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Times';
+    src: url('UTMTimesBold/UTMTimesItalic.woff2') format('woff2'),
+        url('UTMTimesBold/UTMTimesItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Times';
+    src: url('UTMTimesBold/UTMTimesBoldItalic.woff2') format('woff2'),
+        url('UTMTimesBold/UTMTimesBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Times';
+    src: url('UTMTimesBold/UTMTimesBold.woff2') format('woff2'),
+        url('UTMTimesBold/UTMTimesBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

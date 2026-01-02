@@ -71,11 +71,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        // inter: ['Inter', 'sans-serif'],
-        // poppins: ['Poppins', 'sans-serif'],
-        // montserrat: ['Montserrat', 'sans-serif'],
-        utm: ['"UTM Times"', 'serif'],
-      },
+    utm: ['"UTM Times"', 'serif'],
+  },
       boxShadow: {
         shadow: 'var(--shadow-1)',
         shadow2: 'var(--shadow-2)',

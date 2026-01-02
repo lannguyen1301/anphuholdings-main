@@ -1,14 +1,8 @@
 @import url('./property-details.css');
 @import url('./swiper.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
-@layer base {
-  html,
-  body {
-    font-family: "UTM Times", serif;
-  }
-}
-
-
 @tailwind components;
 @tailwind utilities;
 
@@ -77,7 +71,7 @@ body {
   [type='datetime-local'],
   textarea,
   select {
-    @apply w-full rounded-xl border-[#F1F1F1] px-3 py-[13px] font-utm shadow-sm focus:border-primary focus:ring-primary sm:px-4 md:px-[18px] md:py-[15px] lg:px-5 lg:py-[17px] xl:px-[22px] xl:py-[19px];
+    @apply w-full rounded-xl border-[#F1F1F1] px-3 py-[13px] font-poppins shadow-sm focus:border-primary focus:ring-primary sm:px-4 md:px-[18px] md:py-[15px] lg:px-5 lg:py-[17px] xl:px-[22px] xl:py-[19px];
   }
   [type='checkbox'],
   [type='radio'] {
@@ -86,7 +80,7 @@ body {
 }
 
 .chip {
-  @apply inline-flex items-center gap-x-1 rounded-full bg-primary-10 px-3 py-1.5 font-utm text-sm font-medium text-primary;
+  @apply inline-flex items-center gap-x-1 rounded-full bg-primary-10 px-3 py-1.5 font-poppins text-sm font-medium text-primary;
 }
 
 /* AOS */
@@ -131,7 +125,7 @@ body {
 }
 
 .btn {
-  @apply flex size-fit items-center gap-x-1.5 rounded-lg px-3.5 py-1.5 font-utm text-sm font-normal text-nature-200 md:gap-x-2 md:px-4 md:text-base lg:gap-x-2.5 lg:px-5 lg:py-2 lg:text-lg;
+  @apply flex size-fit items-center gap-x-1.5 rounded-lg px-3.5 py-1.5 font-poppins text-sm font-normal text-nature-200 md:gap-x-2 md:px-4 md:text-base lg:gap-x-2.5 lg:px-5 lg:py-2 lg:text-lg;
 }
 
 .btn-primary {
@@ -161,7 +155,7 @@ body {
 
 /* heading tagline */
 .heading-tagline {
-  @apply mb-6 text-center font-utm font-normal text-nature-200 md:mb-8 lg:mb-10 lg:text-lg lg:leading-[26px] xl:mb-12;
+  @apply mb-6 text-center font-poppins font-normal text-nature-200 md:mb-8 lg:mb-10 lg:text-lg lg:leading-[26px] xl:mb-12;
 }
 
 /* section padding */
@@ -303,7 +297,7 @@ body {
 }
 
 .how-it-works-card > .content > p {
-  @apply font-utm text-base font-normal text-nature-800;
+  @apply font-poppins text-base font-normal text-nature-800;
 }
 
 .how-it-works__rounded-1 {
@@ -381,7 +375,7 @@ body {
 }
 
 .testimonial-content > p {
-  @apply font-utm font-normal text-nature-300 lg:text-lg;
+  @apply font-poppins font-normal text-nature-300 lg:text-lg;
 }
 
 .testimonial-features {
@@ -393,11 +387,11 @@ body {
 }
 
 .testimonial-features > div > span {
-  @apply font-utm text-sm font-normal text-nature-200;
+  @apply font-poppins text-sm font-normal text-nature-200;
 }
 
 .testimonial-details {
-  @apply rounded-md border border-primary-400 px-2 py-1.5 font-utm text-sm font-medium text-nature-400 md:px-4 md:py-[10px];
+  @apply rounded-md border border-primary-400 px-2 py-1.5 font-poppins text-sm font-medium text-nature-400 md:px-4 md:py-[10px];
 }
 
 .testimonial-details:hover {
@@ -425,11 +419,11 @@ body {
 }
 
 .urs-header > div > h6 {
-  @apply font-utm text-base font-semibold text-nature-600 lg:mb-1 lg:text-lg;
+  @apply font-poppins text-base font-semibold text-nature-600 lg:mb-1 lg:text-lg;
 }
 
 .urs-header > div > span {
-  @apply font-utm text-sm font-normal text-nature-300;
+  @apply font-poppins text-sm font-normal text-nature-300;
 }
 
 .urs-body {
@@ -437,7 +431,7 @@ body {
 }
 
 .urs-body > p {
-  @apply mb-3 font-utm text-sm leading-[22px] text-nature-200 md:mb-4 lg:mb-5 xl:mb-7;
+  @apply mb-3 font-poppins text-sm leading-[22px] text-nature-200 md:mb-4 lg:mb-5 xl:mb-7;
 }
 
 .reviews-swiper-pagination > .swiper-pagination-bullet {
@@ -454,11 +448,11 @@ body {
 }
 
 .blog-content > p {
-  @apply mb-4 mt-2 font-utm text-base font-normal text-nature-200;
+  @apply mb-4 mt-2 font-poppins text-base font-normal text-nature-200;
 }
 
 .blog-content > a {
-  @apply font-utm text-base font-medium text-primary;
+  @apply font-poppins text-base font-medium text-primary;
 }
 
 /* Home 2*/
@@ -489,18 +483,18 @@ body {
     }
 
     p {
-      @apply my-3 text-center font-utm text-base font-medium text-nature-300 md:my-4 md:text-start lg:my-5 lg:text-lg;
+      @apply my-3 text-center font-poppins text-base font-medium text-nature-300 md:my-4 md:text-start lg:my-5 lg:text-lg;
     }
 
     .h2-service-icon {
       @apply my-3 flex items-center justify-center gap-x-[10px] md:mx-0 md:mb-4 md:justify-start lg:mb-5;
       div {
-        @apply flex items-center gap-x-2 font-utm text-sm font-medium text-new-900 lg:gap-x-[10px];
+        @apply flex items-center gap-x-2 font-poppins text-sm font-medium text-new-900 lg:gap-x-[10px];
       }
     }
 
     a {
-      @apply flex items-center justify-center gap-x-2 font-utm text-sm font-medium text-new-900 transition-all hover:text-primary md:justify-start lg:gap-x-[10px];
+      @apply flex items-center justify-center gap-x-2 font-poppins text-sm font-medium text-new-900 transition-all hover:text-primary md:justify-start lg:gap-x-[10px];
     }
 
     .h2-service-rating {
@@ -526,11 +520,11 @@ body {
       @apply flex items-center justify-between;
 
       .pth-l > a {
-        @apply block font-utm text-base font-medium text-nature-600;
+        @apply block font-poppins text-base font-medium text-nature-600;
       }
 
       .pth-l > p {
-        @apply font-utm text-sm font-medium text-nature-200;
+        @apply font-poppins text-sm font-medium text-nature-200;
       }
 
       .pth-r {
@@ -542,12 +536,12 @@ body {
       @apply flex w-full items-center justify-between;
 
       p {
-        @apply font-utm text-sm font-normal text-nature-200;
+        @apply font-poppins text-sm font-normal text-nature-200;
       }
 
       div {
         span {
-          @apply font-utm text-sm font-medium text-nature-600;
+          @apply font-poppins text-sm font-medium text-nature-600;
         }
       }
     }
@@ -568,7 +562,7 @@ body {
 
     div {
       h4 {
-        @apply text-center font-utm text-base font-semibold text-nature-500 sm:text-start lg:text-lg;
+        @apply text-center font-poppins text-base font-semibold text-nature-500 sm:text-start lg:text-lg;
       }
 
       div {
@@ -577,7 +571,7 @@ body {
     }
   }
   p {
-    @apply text-wrap text-center font-utm text-sm font-normal text-nature-300 sm:text-start lg:text-base;
+    @apply text-wrap text-center font-poppins text-sm font-normal text-nature-300 sm:text-start lg:text-base;
   }
 }
 
@@ -673,11 +667,11 @@ body {
   }
 
   p {
-    @apply mb-7 mt-3.5 text-center font-utm text-sm text-new-200 md:mb-8 md:mt-4 lg:mb-9 lg:mt-5 xl:mb-10;
+    @apply mb-7 mt-3.5 text-center font-poppins text-sm text-new-200 md:mb-8 md:mt-4 lg:mb-9 lg:mt-5 xl:mb-10;
   }
 
   a {
-    @apply flex items-center gap-x-2 text-center font-utm text-sm font-medium text-new-900 transition-all hover:gap-x-2.5 hover:text-secondary md:text-base lg:text-lg;
+    @apply flex items-center gap-x-2 text-center font-poppins text-sm font-medium text-new-900 transition-all hover:gap-x-2.5 hover:text-secondary md:text-base lg:text-lg;
   }
 }
 
@@ -776,14 +770,14 @@ body {
       @apply flex items-center justify-between bg-new-100 px-5 py-[15px];
 
       p {
-        @apply font-utm text-xs font-normal text-new-800 md:text-sm;
+        @apply font-poppins text-xs font-normal text-new-800 md:text-sm;
       }
 
       div {
         @apply flex items-center gap-x-1;
 
         span {
-          @apply font-utm text-sm font-medium text-new-900;
+          @apply font-poppins text-sm font-medium text-new-900;
         }
       }
     }
@@ -796,14 +790,14 @@ body {
       }
 
       p {
-        @apply font-utm text-sm font-normal text-new-800;
+        @apply font-poppins text-sm font-normal text-new-800;
       }
 
       .h3-property-footer {
         @apply flex items-center justify-between;
 
         a {
-          @apply flex items-center gap-x-1.5 text-center font-utm text-sm font-medium text-new-900 md:gap-x-2 md:text-base lg:gap-x-[10px] lg:text-lg;
+          @apply flex items-center gap-x-1.5 text-center font-poppins text-sm font-medium text-new-900 md:gap-x-2 md:text-base lg:gap-x-[10px] lg:text-lg;
         }
 
         p {
@@ -834,7 +828,7 @@ body {
       div {
         @apply flex items-center gap-x-1.5;
         span {
-          @apply font-utm text-xs font-normal text-new-900;
+          @apply font-poppins text-xs font-normal text-new-900;
         }
       }
     }
@@ -844,7 +838,7 @@ body {
     }
 
     a {
-      @apply flex items-center gap-x-2.5 text-center font-utm text-lg font-medium text-new-900 transition-all hover:text-secondary;
+      @apply flex items-center gap-x-2.5 text-center font-poppins text-lg font-medium text-new-900 transition-all hover:text-secondary;
     }
   }
 }
@@ -869,7 +863,7 @@ body {
     }
 
     p {
-      @apply font-utm text-sm font-normal text-new-800;
+      @apply font-poppins text-sm font-normal text-new-800;
     }
 
     .h4-property-rate {
@@ -911,7 +905,7 @@ body {
     }
 
     p {
-      @apply font-utm text-xs font-normal text-new-800;
+      @apply font-poppins text-xs font-normal text-new-800;
     }
 
     .h5-description-icons {
@@ -930,7 +924,7 @@ body {
       }
 
       a {
-        @apply flex items-center gap-x-2.5 text-center font-utm text-lg font-medium text-new-900;
+        @apply flex items-center gap-x-2.5 text-center font-poppins text-lg font-medium text-new-900;
       }
     }
   }
@@ -958,7 +952,7 @@ body {
       @apply flex items-center gap-x-10 sm:gap-x-12 md:gap-x-14 lg:gap-x-16 xl:gap-x-20 2xl:gap-x-24;
 
       p {
-        @apply flex items-center gap-x-1.5 font-utm text-sm font-semibold opacity-70 md:gap-x-2 lg:gap-x-2.5 lg:text-base;
+        @apply flex items-center gap-x-1.5 font-poppins text-sm font-semibold opacity-70 md:gap-x-2 lg:gap-x-2.5 lg:text-base;
       }
     }
 
@@ -970,7 +964,7 @@ body {
       @apply flex items-center justify-between gap-x-5;
 
       p {
-        @apply font-utm text-sm text-new-800 md:text-base lg:text-lg;
+        @apply font-poppins text-sm text-new-800 md:text-base lg:text-lg;
       }
 
       div {
