@@ -982,9 +982,9 @@ body {
 }
 
 @layer base {
-  html {
+  /* html {
     font-family: 'UTM Times', serif;
-  }
+  } */
 
   h1,
   h2,
